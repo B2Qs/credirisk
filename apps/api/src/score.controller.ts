@@ -1,0 +1,1 @@
+// GET /score/:rut

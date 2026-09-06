@@ -1,0 +1,14 @@
+{
+  "name": "credirisk",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "yarn workspace @credirisk/api dev",
+    "dev:web": "yarn workspace @credirisk/web dev",
+    "build": "yarn workspaces foreach run build",
+    "typecheck": "yarn workspaces foreach run typecheck"
+  }
+}
