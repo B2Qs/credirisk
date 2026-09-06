@@ -1,4 +1,3 @@
-// computeScore + validarRut + maskRut
 import crypto from "crypto";
 
 export function normalizeRut(rut: string): string {
